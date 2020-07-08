@@ -14,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/himwai/ReactJS/issues"
   },
-  "homepage": "https://github.com/himwai/ReactJS#readme"
+  "homepage": "https://github.com/himwai/ReactJS#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
 }
