@@ -1,5 +1,5 @@
 {
-  "name": "reactjs",
+  "name": "reactjs-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,16 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/himwai/ReactJS.git"
   },
-  "author": "",
+  "author": "Charles Ting",
   "bugs": {
     "url": "https://github.com/himwai/ReactJS/issues"
   },
   "homepage": "https://github.com/himwai/ReactJS#readme",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "webpack": "^4.43.0"
+    "webpack": "^5.73.0"
   }
 }
