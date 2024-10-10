@@ -1,48 +1,25 @@
 {
-  "name": "reactjs",
+  "name": "websocket",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/himwai/ReactJS.git"
-  },
-  "keywords": [],
   "author": "Charles Ting",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/himwai/ReactJS/issues"
-  },
-  "homepage": "https://github.com/himwai/ReactJS#readme",
-  "description": "",
+  "scripts": {},
   "dependencies": {
-    "antd": "^5.0.0",
-    "i18next": "^19.4.4",
-    "i18next-xhr-backend": "^3.1.0",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-i18next": "^11.5.0",
-    "redux": "^4.0.5",
-    "redux-form": "^8.3.6"
+    "@ant-design/icons": "^5.5.1",
+    "@reduxjs/toolkit": "^2.2.8",
+    "antd": "^5.21.3",
+    "express": "^4.21.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "redis": "^4.7.0",
+    "redux": "^5.0.1",
+    "socket.io": "^4.8.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.3",
-    "@babel/preset-env": "^7.10.3",
-    "@babel/preset-react": "^7.10.1",
-    "@babel/preset-typescript": "^7.18.6",
-    "babel-loader": "^8.1.0",
-    "typescript": "^4.9.5",
-    "webpack": "^5.2.0",
-    "webpack-cli": "^4.0.0",
-    "webpack-dev-server": "^4.11.1"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "@types/redis": "^4.0.10",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }

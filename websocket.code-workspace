@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../DEVELOP/apps.cityray.com"
+		}
+	],
+	"settings": {
+		"workbench.list.openMode": "doubleClick",
+	}
+}

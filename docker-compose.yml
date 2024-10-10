@@ -1,0 +1,9 @@
+services:
+  develop:
+    build:
+      context: .
+      dockerfile: docker-build.dockerfile
+
+    environment:
+      - "TZ=Asia/Hong_Kong"
+

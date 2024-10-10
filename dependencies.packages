@@ -1,0 +1,9 @@
+@ant-design/icons
+@reduxjs/toolkit
+antd
+react
+react-dom
+redux
+express
+redis
+socket.io

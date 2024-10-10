@@ -1,0 +1,6 @@
+@types/express
+@types/node
+@types/redis
+ts-node
+typescript
+npm-run-all
